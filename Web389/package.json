@@ -1,0 +1,19 @@
+{
+  "name": "web389",
+  "version": "1.0.0",
+  "description": "codien389.com.vn",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "keywords": [],
+  "author": "naky",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
